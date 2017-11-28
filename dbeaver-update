@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd /tmp
+
+wget https://dbeaver.jkiss.org/files/dbeaver-ce_latest_amd64.deb && sudo dpkg -i dbeaver-ce_latest_amd64.deb || sudo apt -f install
+
+exit
